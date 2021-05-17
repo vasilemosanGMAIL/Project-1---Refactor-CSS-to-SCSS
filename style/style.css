@@ -46,6 +46,10 @@ ul {
   background-color: #ffcfcf;
 }
 
+.container .main > * {
+  padding-left: 30px;
+}
+
 .container .main li {
   font-size: 0.85rem;
 }
@@ -68,9 +72,5 @@ ul {
 
 .container .main a:hover {
   text-decoration: underline;
-}
-
-.main > * {
-  padding-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */

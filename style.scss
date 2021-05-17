@@ -44,6 +44,9 @@ ul {
     min-height: 750px;
     min-width: 600px;
     background-color: $navigationAndBodyColor;
+    > * {
+      padding-left: 30px;
+    }
 
     ul {
     }
@@ -69,7 +72,4 @@ ul {
       text-decoration: underline;
     }
   }
-}
-.main > * {
-  padding-left: 30px;
 }
